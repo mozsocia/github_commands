@@ -9,7 +9,7 @@ Git stash is a useful command in Git that allows you to temporarily save changes
 1.  Stashing Changes: To stash your changes, you can use the following command:
 
 ```
-git stash
+git stash --all
 
 ```
 
