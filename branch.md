@@ -96,6 +96,8 @@ To rename the current branch:
 ```bash
 git branch -m <new-branch-name>
 ```
+`-m` This option tells Git to move/rename the current branch to a new name.
+
 To rename a specific branch:
 ```bash
 git branch -m <old-branch-name> <new-branch-name>
