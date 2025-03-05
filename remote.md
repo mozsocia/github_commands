@@ -1,5 +1,22 @@
 To add a remote origin in Git, you use the `git remote add` command. This allows you to connect your local repository to a remote repository, typically hosted on a platform like GitHub, GitLab, or Bitbucket.
 
+
+
+### Summary of Common Remote Commands
+| Command                                      | Description                                      |
+|----------------------------------------------|--------------------------------------------------|
+| `git remote -v`                              | List all remotes and their URLs                  |
+| `git remote add <name> <url>`                | Add a new remote                                 |
+| `git remote remove <name>`                   | Remove a remote                                  |
+| `git remote rename <old-name> <new-name>`    | Rename a remote                                  |
+| `git remote set-url <name> <new-url>`        | Change the URL of a remote                       |
+| `git remote show <name>`                     | Show details about a specific remote            |
+| `git fetch <name>`                           | Fetch changes from a remote                     |
+| `git push <name> <branch>`                   | Push changes to a remote                        |
+| `git fetch --prune <name>`                   | Prune stale remote-tracking branches            |
+
+
+
 Here’s how you can do it:
 
 ### 1. **Check if a remote already exists**
@@ -191,18 +208,5 @@ git fetch --prune origin
 ```
 
 ---
-
-### Summary of Common Remote Commands
-| Command                                      | Description                                      |
-|----------------------------------------------|--------------------------------------------------|
-| `git remote -v`                              | List all remotes and their URLs                  |
-| `git remote add <name> <url>`                | Add a new remote                                 |
-| `git remote remove <name>`                   | Remove a remote                                  |
-| `git remote rename <old-name> <new-name>`    | Rename a remote                                  |
-| `git remote set-url <name> <new-url>`        | Change the URL of a remote                       |
-| `git remote show <name>`                     | Show details about a specific remote            |
-| `git fetch <name>`                           | Fetch changes from a remote                     |
-| `git push <name> <branch>`                   | Push changes to a remote                        |
-| `git fetch --prune <name>`                   | Prune stale remote-tracking branches            |
 
 These commands should cover most of your needs when working with Git remotes! Let me know if you have further questions. 😊

@@ -1,5 +1,29 @@
 Here’s a comprehensive list of **Git branch-related commands** that will help you create, manage, and work with branches in your repository:
 
+
+### Summary of Common Branch Commands
+| Command                                      | Description                                      |
+|----------------------------------------------|--------------------------------------------------|
+| `git branch`                                 | List local branches                              |
+| `git branch -a`                              | List all branches (local and remote)             |
+| `git branch <branch-name>`                   | Create a new branch                              |
+| `git checkout <branch-name>`                 | Switch to a branch                               |
+| `git checkout -b <branch-name>`              | Create and switch to a new branch                |
+| `git branch -d <branch-name>`                | Delete a branch                                  |
+| `git branch -D <branch-name>`                | Force delete a branch                            |
+| `git branch -m <new-branch-name>`            | Rename the current branch                        |
+| `git merge <branch-name>`                    | Merge a branch into the current branch           |
+| `git rebase <branch-name>`                   | Rebase the current branch onto another branch    |
+| `git push -u <remote> <branch>`              | Push a branch to a remote repository             |
+| `git push <remote> --delete <branch>`        | Delete a remote branch                           |
+| `git branch --merged`                        | List merged branches                             |
+| `git branch --no-merged`                     | List unmerged branches                           |
+| `git diff <branch1>..<branch2>`              | Compare two branches                             |
+| `git stash`                                  | Stash changes before switching branches          |
+| `git reset --hard <commit>`                  | Reset a branch to a specific commit              |
+| `git log <branch>`                           | View commit history of a branch                  |
+
+
 ---
 
 ### 1. **List All Branches**
@@ -242,27 +266,5 @@ git pull origin main
 ```
 
 ---
-
-### Summary of Common Branch Commands
-| Command                                      | Description                                      |
-|----------------------------------------------|--------------------------------------------------|
-| `git branch`                                 | List local branches                              |
-| `git branch -a`                              | List all branches (local and remote)             |
-| `git branch <branch-name>`                   | Create a new branch                              |
-| `git checkout <branch-name>`                 | Switch to a branch                               |
-| `git checkout -b <branch-name>`              | Create and switch to a new branch                |
-| `git branch -d <branch-name>`                | Delete a branch                                  |
-| `git branch -D <branch-name>`                | Force delete a branch                            |
-| `git branch -m <new-branch-name>`            | Rename the current branch                        |
-| `git merge <branch-name>`                    | Merge a branch into the current branch           |
-| `git rebase <branch-name>`                   | Rebase the current branch onto another branch    |
-| `git push -u <remote> <branch>`              | Push a branch to a remote repository             |
-| `git push <remote> --delete <branch>`        | Delete a remote branch                           |
-| `git branch --merged`                        | List merged branches                             |
-| `git branch --no-merged`                     | List unmerged branches                           |
-| `git diff <branch1>..<branch2>`              | Compare two branches                             |
-| `git stash`                                  | Stash changes before switching branches          |
-| `git reset --hard <commit>`                  | Reset a branch to a specific commit              |
-| `git log <branch>`                           | View commit history of a branch                  |
 
 Let me know if you need further clarification or examples! 😊
