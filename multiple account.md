@@ -1,5 +1,7 @@
 https://www.youtube.com/watch?v=lAPcvItvdy0&ab_channel=AyyazTech
 
+https://www.youtube.com/watch?v=nZZwnNdN9eg&ab_channel=InvisibleCAT (remove account)
+
 To use multiple GitHub accounts on a single Windows machine with Git, you need to configure Git to handle different accounts based on the repository or directory. Here's a step-by-step guide:
 
 ### 1. **Generate SSH Keys for Each GitHub Account**
